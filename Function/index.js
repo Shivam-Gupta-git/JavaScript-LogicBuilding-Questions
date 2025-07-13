@@ -216,7 +216,7 @@
 
 // some javascript function related  question for logic building and practice......
 
-// 🔹 Basic Function Logic Questions...........................
+//  Basic Function Logic Questions...........................
 
 // 	1.	Write a function to check if a number is even or odd.
 // let numbers = (num) => {
@@ -288,4 +288,54 @@
 // let result = numbers(234)
 // console.log(`Sum of all number is: ${result}`)
 
+//  Array-Based Function Questions..............................
+// 	6.	Write a function to return the largest number in an array.
+// const numbers = (num)=>{
+// let largestNum = -Infinity
+// for(let i = 0; i < num.length; i++){
+//   if(num[i] > largestNum){
+//     largestNum = num[i]
+//   }
+// }
+// return(largestNum)
+// }
+// let result = numbers([22, 11, 43, 65, 76])
+// console.log('Larges number of this array is', result)
 
+	// 7.	Write a function to remove duplicates from an array.
+// const numbers = (num)=>{
+//   let newArraw = []
+// for(let i = 0; i < num.length; i++){
+//  if(!newArraw.includes(num[i]))
+//  newArraw.push(num[i])
+// }
+// return(newArraw)
+// }
+// let result = numbers([24, 43, 23, 65, 21, 33, 33])
+// console.log(result)
+
+// 	9.	Write a function to find the second largest number in an array.
+// const numbers = (num)=>{
+// let firstLargestNumber = num[0]
+// let secondLargestNumber = num[0]
+// for(let i = 1; i < num.length; i++){
+//   if(num[i] > firstLargestNumber){
+//     firstLargestNumber = num[i]
+//   }else if(num[i] > secondLargestNumber && num[i] - firstLargestNumber)
+//   secondLargestNumber = num[i]
+// }
+// console.log(secondLargestNumber)
+// console.log(firstLargestNumber)
+// }
+// let result = numbers([22, 12, 43, 55, 65, 47])
+
+// 	10.	Write a function that checks if an array is sorted or not.
+// const numbers = (num)=>{
+//   let checkedArr = []
+// for(let i = 0; i < num.length; i++){
+// num[i] < num[i - 1] ? checkedArr.push(num) : null
+// }
+// console.log(checkedArr)
+// }
+// (numbers([1, 2, 3, 4, 5]))
+// (numbers([5, 3, 2, 1]))
