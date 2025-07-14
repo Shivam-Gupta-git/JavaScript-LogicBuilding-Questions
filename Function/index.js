@@ -339,3 +339,39 @@
 // }
 // (numbers([1, 2, 3, 4, 5]))
 // (numbers([5, 3, 2, 1]))
+
+//  String-Based Function Questions..............................
+// 	11.	Write a function to count the number of vowels in a string.
+// const latters =  (latter)=>{
+// 	let newLatter = []
+// for(let i = 0; i < latter.length; i++){
+// 	if(latter[i] === 'a' || latter[i] === 'e' || latter[i] === 'i' || latter[i] === 'o' || latter[i] === 'u'){
+//     newLatter.push(latter[i])
+// 	}
+// }
+// console.log(newLatter)
+// }
+// let result = latters('shivam')
+
+// 	12.	Create a function to check if a string is a palindrome.
+// const latters = (latter)=>{
+// let initiliseLatter = latter.toLowerCase()
+// let reverseLatters = []
+// for(let i = initiliseLatter.length - 1; i >= 0; i--){
+//   reverseLatters.push(initiliseLatter[i])
+// }
+// let newReverseLatter = reverseLatters.toString().split(',').join('')
+// return newReverseLatter === initiliseLatter ? true : false 
+// }
+// console.log(latters('shivam'))
+// console.log(latters('noon'))
+// console.log(latters('MoOn'))
+
+// 	14.	Write a function to capitalize the first letter of each word in a sentence.
+// const words = (word) => {
+//   let newWords = word.split(' ')
+// 	let capatlise = newWords.map(item => item.charAt(0).toUpperCase() + item.slice(1)).join(' '); 
+// 	return capatlise
+// } 
+// let result = words('hello i am a student')
+// console.log(result)
