@@ -1,4 +1,4 @@
-// 🔹 Beginner Level
+//  Beginner Level
 
 // Q1. Write a program to calculate the sum of all numbers in an array.
 
@@ -82,7 +82,7 @@
 // console.log(`Even Number is: ${evenNumberArr} Even Number Count is: ${evenNumberArr.length}`)
 // console.log(`Odd Number is: ${oddNumberArr} Odd Number Count is: ${oddNumberArr.length}`)
 
-// 🔹 Intermediate Level
+//  Intermediate Level
 
 // Q1. Write a function to remove duplicates from an array.
 
