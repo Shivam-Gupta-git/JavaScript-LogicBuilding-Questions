@@ -335,3 +335,5 @@
 // }
 // let result = studentNames('shivam', 's')
 // console.log(result)
+
+// Q45.
