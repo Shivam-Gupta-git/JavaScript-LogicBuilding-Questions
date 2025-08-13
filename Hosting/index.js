@@ -3,6 +3,7 @@
 // var studentName1 = 'Mohan'
 
 // let and const are also hoisted but not initialized.
+
 // console.log(studentName2)
 // let studentName2 = 'Mohan'
 
@@ -19,4 +20,10 @@
 // studentName5()
 // const studentName5 = () => {
 //   console.log('shivam kumar')
+// }
+
+// console.log(studentDetails(2, 5))
+// function studentDetails (num1, num2){
+//   const sum = num1 + num2
+//   return sum
 // }
