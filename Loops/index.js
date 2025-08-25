@@ -102,12 +102,74 @@
 // }
 
 // Q8. Write a program to find the largest number in an array using a loop.
-let numbers = [1, 4, 2, 6, 3, 12, 8]
-let largestNum = numbers[0];
-let result = []
-for(let i = 1; i < numbers.length; i++){
-  if(numbers[i] > largestNum){
-    largestNum = numbers[i]
-  }
-}
-console.log(largestNum)
+// let numbers = [1, 4, 2, 6, 3, 12, 8]
+// let largestNum = numbers[0];
+// let result = []
+// for(let i = 1; i < numbers.length; i++){
+//   if(numbers[i] > largestNum){
+//     largestNum = numbers[i]
+//   }
+// }
+// console.log(largestNum)
+
+// Q9. Print the Fibonacci series up to 10 terms using a loop.
+// let num = 10;
+// let n1 = 0;
+// let n2 = 1;
+// let nextterm;
+// for(let i = 1; i <= num; i++){
+//   console.log(n1)
+//   nextterm = n1 + n2;
+//   n1 = n2;
+//   n2 = nextterm;
+// }
+
+// Q10. Reverse a string using a loop.
+// let studentName = 'Satyam';
+// let reverseName = '';
+// for(let i = studentName.length - 1; i >= 0; i--){
+//   reverseName += studentName[i]
+// }
+// console.log(studentName)
+// console.log(reverseName)
+
+// Q12.	Write a program that checks if a number is prime using a loop.
+// let num = 13;
+// let isPrime = true;
+// if (num < 2) {
+//   isPrime = false
+// }else{
+//   for (let i = 2; i <= Math.sqrt(num); i++) {
+//     if (num % i === 0) {
+//      isPrime = false;
+//      break
+//     } 
+//   } 
+// }
+// if(isPrime){
+//   console.log(num + ' is a Prime Number')
+// }else{
+//   console.log(num + ' is not a Prime Number')
+// }
+
+// 13. Use a for...in loop to print all keys and values of an object.
+// let studentDetails = {
+//   name: 'Rishav Kumar',
+//   age: 21,
+//   city: 'delhi',
+// }
+// for(let key in studentDetails){
+//   console.log(key+ ': ' + studentDetails[key])
+// }
+
+// 14. Write a program that prints all the numbers in an array greater than 50.
+// let num = [23, 12, 33, 45, 55, 65, 78]
+// let greaterNumber = []
+// for(let i = 0; i <= num.length; i++){
+//   if(num[i] > 50){
+//     greaterNumber.push(num[i])
+//   }
+// }
+// console.log(greaterNumber)
+
+// 15.	Print the sum of all even and odd numbers separately from 1 to 20.
