@@ -239,3 +239,7 @@
 //   console.log('data6 is fetching')
 //   await getData(6);
 // })()
+ 
+
+
+
