@@ -173,3 +173,17 @@
 // console.log(greaterNumber)
 
 // 15.	Print the sum of all even and odd numbers separately from 1 to 20.
+// let num = 20;
+// let sumOfEven = 0;
+// let sumOfOdd = 0;
+
+// for(let i = 1; i <= num; i++){
+//   if(i % 2 === 0){
+//     sumOfEven += i;
+//   }else{
+//     sumOfOdd += i;
+//   }
+// }
+
+// console.log("sum of all even number is: "+sumOfEven)
+// console.log("sum of all odd number is: "+ sumOfOdd)
