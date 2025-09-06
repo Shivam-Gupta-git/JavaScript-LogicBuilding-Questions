@@ -1,5 +1,7 @@
 // -> Functional Programming ........................
 
+// -> Functional Programming = Functional Programming is a programming paradigm where functions are treated asfirst-class citizens, meaning they can be assigned to variables, passed as arguments, and returned from other functions
+
 // -> Impretavie Programming => work will be do step by step.
 // let numbers = [1, 4, 6, 8, 9]
 // let doubleOfNum = [];
