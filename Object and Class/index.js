@@ -281,3 +281,11 @@
 // console.log(`Lowest Value is: ${result.lowestValue} & Lowest Key is: ${result.lowestKey}`)
 
 
+// let studentName = {
+//   name: 'ram',
+//   age: '19',
+//   cource: 'BCA'
+// }
+
+// console.log(studentName.name)
+// console.log(studentName['age'])
