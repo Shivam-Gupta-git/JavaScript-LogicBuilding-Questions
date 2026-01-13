@@ -113,8 +113,8 @@
 // console.log(numbers)
 
 // 8.	Merge two arrays.........................
-let num1 = [1, 2, 3, 4];
-let num2 = [5, 6, 7, 8];
+// let num1 = [1, 2, 3, 4];
+// let num2 = [5, 6, 7, 8];
 // let newArray = [];
 
 // for(let i = 0; i < num1.length; i++){
