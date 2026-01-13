@@ -129,3 +129,60 @@
 // 4. map mehod.
 // let newList = name1.map(item => item.toUpperCase())
 // console.log(newList);
+
+// Example of callback function..............................
+// let great = function(){
+//   console.log('hello...')
+// }
+
+// let sum = (a, b, callback) => {
+//  let sum = a + b;
+//  console.log(sum)
+//  setTimeout(()=> {
+//   callback()
+//  },2000)
+// }
+
+// sum(3, 6, great)
+
+//Example of javascript Promise....................................
+
+// let myPromise = new Promise((resolve, reject) => {
+//   let success = true;
+
+//   if(success){
+//     resolve("Data resolve")
+//   }else{
+//     reject("Data reject")
+//   }
+// })
+
+// myPromise.then((result) => {
+//   console.log(result)
+// }).catch((error) => {
+//   console.log(error)
+// })
+
+// Example of javascript clouser.......................
+// let counter = ()=> {
+//   let count = 0;
+//   return function(){
+//     count++;
+//     console.log(count)
+//   }
+// }
+
+// let add = counter()
+// add() 
+// add() 
+// add() 
+
+// Example of try catch.................................
+// try {
+//   let result = JSON.parse('{name:"Shivam"}'); // invalid JSON
+//   console.log(result);
+// } catch (error) {
+//   console.log("Error occurred:", error.message);
+// } finally {
+//   console.log("Done");
+// }
