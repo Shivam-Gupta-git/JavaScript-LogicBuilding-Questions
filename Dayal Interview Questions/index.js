@@ -175,7 +175,7 @@
 
 // console.log(isPalindrome ? 'isPalindrome' : 'is not Palindrome')
 
-// 3.	Count vowels and consonants....................
+// 3.	Count vowels and consonants...........................................
 // let string = 'abhsdeouxl'
 // let arr = string.toUpperCase().split('')
 // let vowelElement = []
@@ -204,3 +204,47 @@
 // console.log('Your String is:', string)
 // console.log("Vowel Element is:",vowelElement, 'Count of Vowel is:', countVowel)
 // console.log("Consonants Element is:", consonantsElement, 'Count of Consonants is:', countConsonent)
+
+// 4.	Find frequency of characters......................................
+// let string = 'hello';
+// let arr = string.split('')
+
+// for(let i = 0; i < arr.length; i++){
+//   if(arr[i] === -1) continue;
+//   let count = 1;
+//   for(let j = 1 + i; j < arr.length; j++){
+//     if(arr[i] === arr[j]){
+//       count++;
+//       arr[j] = -1;
+//     }
+//   }
+//   console.log(arr[i], '=', count)
+// }
+
+// 5.	Remove duplicate characters........................................
+// let string = 'hello';
+// let arr = string.split('');
+// let newArr = [];
+// for(let i = 0; i < arr.length; i++){
+//   if(arr[i] === -1) continue
+//   for(let j = i + 1; j < arr.length; j++){
+//     if(arr[i] === arr[j]){
+//       arr[j] = -1;
+//     }
+//   }
+//   newArr.push(arr[i])
+// }
+// string = newArr.join('')
+// console.log(string)
+
+// 6.	Find length of string without using length()
+// let string = 'abcdhsye';
+// let count = 0;
+
+// for (let ch of string) {
+//   count++;
+// }
+
+// console.log(count);
+
+
