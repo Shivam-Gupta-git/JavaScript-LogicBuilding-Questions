@@ -174,3 +174,33 @@
 // }
 
 // console.log(isPalindrome ? 'isPalindrome' : 'is not Palindrome')
+
+// 3.	Count vowels and consonants....................
+// let string = 'abhsdeouxl'
+// let arr = string.toUpperCase().split('')
+// let vowelElement = []
+// let consonantsElement = []
+// let countVowel = 0;
+// let countConsonent = 0;
+
+// for(let i = 0; i < arr.length; i++){
+//   if(
+//     arr[i] === 'A' ||
+//     arr[i] === 'E' ||
+//     arr[i] === 'I' ||
+//     arr[i] === 'O' ||
+//     arr[i] === 'U'
+//     ){
+//     vowelElement.push(arr[i])
+//     countVowel++;
+//   }else{
+//     consonantsElement.push(arr[i])
+//     countConsonent++;
+//   }
+// }
+// vowelElement = vowelElement.join('').toLowerCase()
+// consonantsElement = consonantsElement.join('').toLowerCase()
+
+// console.log('Your String is:', string)
+// console.log("Vowel Element is:",vowelElement, 'Count of Vowel is:', countVowel)
+// console.log("Consonants Element is:", consonantsElement, 'Count of Consonants is:', countConsonent)
