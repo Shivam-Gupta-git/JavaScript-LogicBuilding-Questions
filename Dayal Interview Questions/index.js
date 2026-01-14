@@ -1,3 +1,5 @@
+// 🔹 1. ARRAY-BASED QUESTIONS (MOST COMMON)....................................................
+
 // 1. Find the largest / smallest element in an array...........
 // Largest Number.....
 
@@ -134,3 +136,41 @@
 // let merge = [...num1, ...num2];
 // console.log(merge)
 
+// 🔹 2. STRING-BASED QUESTIONS...................................................
+
+// 1.	Reverse a string..............................
+// let latter = 'abcd'
+// let arr = latter.split('')
+// // console.log(arr)
+// let start = 0;
+// let end = latter.length - 1;
+
+// while(start < end){
+//   let temp = arr[start];
+//   arr[start] = arr[end];
+//   arr[end] = temp;
+//   start++;
+//   end--;
+// }
+
+// latter = arr.join('')
+// console.log(latter)
+
+// 2.	Check palindrome..........................
+// let string = 'madam';
+// let arr = string.split('')
+// // console.log(arr)
+// let start = 0;
+// let end = string.length - 1;
+// let isPalindrome = true;
+// while(start < end){
+//   if(arr[start] !== arr[end]){
+//     isPalindrome = false;
+//     break;
+//   }
+
+//   start++;
+//   end--;
+// }
+
+// console.log(isPalindrome ? 'isPalindrome' : 'is not Palindrome')
