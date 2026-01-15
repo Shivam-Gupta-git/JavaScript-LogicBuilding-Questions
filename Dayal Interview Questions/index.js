@@ -265,6 +265,24 @@
 
 // console.log(isPrime ? 'isPrime': 'not Prime')
 
+// 	2.	Check Armstrong number............................
+// let number = 370;
+// let stNumber = number.toString();
+// let isArmstrong = true
+// let sum = 0;
+
+// for(let i = 0; i < stNumber.length; i++){
+//   let cal = Math.pow(stNumber[i], 3);
+//   sum += cal
+// }
+
+// if(sum !== number){
+//   isArmstrong = false
+// }
+// console.log(isArmstrong ? 'isArmstrong' : 'is not Armstrong')
+
+
+
 
 
 
