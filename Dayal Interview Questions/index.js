@@ -281,6 +281,47 @@
 // }
 // console.log(isArmstrong ? 'isArmstrong' : 'is not Armstrong')
 
+// 3.	Check palindrome number.....................................
+// let number = 11011;
+// let stNumer = number.toString();
+
+// let start = 0;
+// let last = stNumer.length - 1;
+
+// let isPalindrome = true;
+
+// while(start < last){
+//   if(stNumer[start] !== stNumer[last]){
+//     isPalindrome = false;
+//     break;
+//   }
+//   start++;
+//   last--;
+// }
+// console.log(isPalindrome ? 'isPalindrome' : 'is not Palindrome');
+
+// 4.	Find factorial............................
+// let number = 5;
+// let fact = 1;
+// for(let i = 1; i <= number; i++){
+  
+//   fact *= i
+// }
+
+// console.log(`Factorial of ${number} is: ${fact}`)
+
+// 5. Fibonacci series............................
+let number = 10; 
+let a = 0, b = 1;
+
+for (let i = 0; i < number; i++) {
+  console.log(a)
+  let next = a + b;
+  a = b;
+  b = next;
+}
+
+
 
 
 
