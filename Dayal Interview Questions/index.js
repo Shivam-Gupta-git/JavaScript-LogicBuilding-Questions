@@ -158,13 +158,11 @@
 
 // 2.	Check palindrome..........................
 // let string = 'madam';
-// let arr = string.split('')
-// // console.log(arr)
 // let start = 0;
 // let end = string.length - 1;
 // let isPalindrome = true;
 // while(start < end){
-//   if(arr[start] !== arr[end]){
+//   if(start[start] !== start[end]){
 //     isPalindrome = false;
 //     break;
 //   }
@@ -177,24 +175,24 @@
 
 // 3.	Count vowels and consonants...........................................
 // let string = 'abhsdeouxl'
-// let arr = string.toUpperCase().split('')
+// let newString = string.toUpperCase()
 // let vowelElement = []
 // let consonantsElement = []
 // let countVowel = 0;
 // let countConsonent = 0;
 
-// for(let i = 0; i < arr.length; i++){
+// for(let i = 0; i < newString.length; i++){
 //   if(
-//     arr[i] === 'A' ||
-//     arr[i] === 'E' ||
-//     arr[i] === 'I' ||
-//     arr[i] === 'O' ||
-//     arr[i] === 'U'
+//     newString[i] === 'A' ||
+//     newString[i] === 'E' ||
+//     newString[i] === 'I' ||
+//     newString[i] === 'O' ||
+//     newString[i] === 'U'
 //     ){
-//     vowelElement.push(arr[i])
+//     vowelElement.push(newString[i])
 //     countVowel++;
 //   }else{
-//     consonantsElement.push(arr[i])
+//     consonantsElement.push(newString[i])
 //     countConsonent++;
 //   }
 // }
@@ -237,7 +235,7 @@
 // string = newArr.join('')
 // console.log(string)
 
-// 6.	Find length of string without using length()
+// 6.	Find length of string without using length()..........................
 // let string = 'abcdhsye';
 // let count = 0;
 
@@ -246,5 +244,28 @@
 // }
 
 // console.log(count);
+
+// 🔹 3. NUMBER-BASED QUESTIONS..............................
+
+// 1.	Check prime number...................
+
+// let number = 25;
+// isPrime = true;
+
+// if(number <= 1){
+//   isPrime = false;
+// }else{
+//   for(let i = 2; i <= Math.sqrt(number); i++){
+//     if(number % i === 0){
+//      isPrime = false;
+//      break;
+//     }
+//   }
+// }
+
+// console.log(isPrime ? 'isPrime': 'not Prime')
+
+
+
 
 
