@@ -311,16 +311,70 @@
 // console.log(`Factorial of ${number} is: ${fact}`)
 
 // 5. Fibonacci series............................
-let number = 10; 
-let a = 0, b = 1;
+// let number = 10; 
+// let a = 0, b = 1;
 
-for (let i = 0; i < number; i++) {
-  console.log(a)
-  let next = a + b;
-  a = b;
-  b = next;
-}
+// for (let i = 0; i < number; i++) {
+//   console.log(a)
+//   let next = a + b;
+//   a = b;
+//   b = next;
+// }
 
+// 🔹 4. BASIC ALGORITHM QUESTIONS...................................................
+
+// 1.	Linear search.................
+
+// const linearSearch = (numbers, value)=> {
+//  for(let i = 0; i < numbers.length; i++){
+//   if(numbers[i] === value){
+//     return i;
+//   }
+//  }
+// }
+// const numbers = [2, 4, 5, 1, 6, 3, 8, 9]
+// console.log(linearSearch(numbers ,1))
+
+// 2. Binary search............................
+
+// const binarySearch = (arr, target) => {
+//   for (let i = 0; i < arr.length; i++) {
+//     for (let j = i + 1; j < arr.length; j++) {
+//       if (arr[i] > arr[j]) {
+//         let temp = arr[i];
+//         arr[i] = arr[j];
+//         arr[j] = temp;
+//       }
+//     }
+//   }
+
+//   console.log("Sorted Array:", arr);
+
+//   let start = 0;
+//   let end = arr.length - 1;
+
+//   for (let i = 0; i < arr.length; i++) {
+//     if (start > end) break; 
+
+//     let mid = (start + end) >> 1; 
+
+//     if (arr[mid] === target) {
+//       console.log(`Found ${target} at index ${mid}`);
+//       return mid;
+//     } else if (arr[mid] < target) {
+//       start = mid + 1;
+//     } else {
+//       end = mid - 1; 
+//     }
+//   }
+
+//   console.log(`${target} not found`);
+//   return -1;
+// };
+
+
+// const numbers = [2, 1, 5, 4, 7, 8];
+// binarySearch(numbers, 1);
 
 
 
