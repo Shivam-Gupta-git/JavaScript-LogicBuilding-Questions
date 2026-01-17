@@ -186,3 +186,29 @@
 // } finally {
 //   console.log("Done");
 // }
+
+// Example of Synchronous Programming ...................................................
+// let Synchronous = (a, b) => {
+//  let sum = a + b;
+//   return sum
+// }
+// let result =  Synchronous(3, 6)
+// console.log(result)
+
+// Example of Asynchronous Programming...................................................
+
+// console.log('first')
+// let sum = (a, b, callback) => {
+//   let result = a + b;
+//   setTimeout(() => {
+//     callback(result);
+//   }, 2000);
+// }
+// sum(3, 6, (data) => {
+//   console.log("second", data);
+// });
+
+// console.log('third')
+
+
+
