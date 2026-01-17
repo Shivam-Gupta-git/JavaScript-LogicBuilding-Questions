@@ -210,5 +210,199 @@
 
 // console.log('third')
 
+// Example of bind() method................................. 
+// let user = {
+//   name: "Shivam"
+// };
+
+// function greet() {
+//   console.log("Hello", this.name);
+// }
+
+// let boundGreet = greet.bind(user);
+// boundGreet(); 
+
+//Example of Prototype.........................................
+// function User(name){
+//  this.name = name;
+// }
+
+// User.prototype.sayHello1 = function(){
+//   console.log('Hello My name is ', this.name)
+// }
+
+// let name1 = new User('Rohan')
+// let name2 = new User('Shubham')
+
+// name1.sayHello1()
+// name2.sayHello1()
+
+// Example of map() method.................................................
+
+// let numbers = [2, 5, 1, 6, 7]
+// let newNumbers = numbers.map((num) => num + 1)
+// console.log('Original Number',numbers)
+// console.log('maping numbers',newNumbers)
+
+// Example of filter() method......................................
+
+// let number = [1, 4, 5, 2, 3, 7];
+// let newNumber = number.filter((num) => num > 4)
+// console.log(newNumber)
+
+// Example of reduce() method......................................
+// let numbers = [1, 2, 3, 4];
+
+// let sum = numbers.reduce((total, num) => total + num, 0);
+// console.log(sum); 
+
+// Example of Private variable............................
+// let counter = () => {
+//   let count = 0
+//   return {
+//     increment(){
+//       count++;
+//       return count;
+//     },
+//     decrement(){
+//       count--;
+//       return count
+//     }
+//   }
+// }
+
+// let counterFun = counter();
+// console.log(counterFun.increment())
+// console.log(counterFun.increment())
+
+// console.log(counterFun.decrement())
+
+// Example of typeOf............................................
+// let number1 = 33;
+// console.log(typeof(number1));
+
+// let name1 = 'Roham';
+// console.log(typeof(name1));
+
+// let logic = true;
+// console.log(typeof(logic));
+
+// let number2 
+// console.log(typeof(number2))
+
+// let number3 = {}
+// console.log(typeof(number3))
+
+// let fun = () => {};
+// console.log(typeof(fun))
+
+// Example of pop() method............................................
+
+// let numbers = [1, 2, 4, 6, 3];
+// let remove1 = numbers.pop()
+// console.log(remove1) // 3
+// console.log(numbers) // [ 1, 2, 4, 6 ]
+
+// Example of shift() method..................................
+// let numbers = [1, 3, 5, 2, 6];
+// let newnumbers = numbers.shift();
+// console.log(newnumbers);
+// console.log(numbers)
+
+// Example of splice() method............................................
+// let numbers = [1, 4, 2, 6, 4, 8]
+// let newNumbers = numbers.splice(1, 1)
+// console.log(newNumbers);
+// console.log(numbers);
+
+// Example of a Higher Order Function....................................
+
+// let sum = (a, b, callback) => { // higher Order Function
+//   let result = a + b;
+//   callback(result)
+// }
+
+// function showResult(result){ // regular function
+//   console.log(result)
+// }
+// sum(2, 5, showResult);
+
+// Another Example of Higher Order Function...
+// let student = (names, callback) => { // Higher Order Function
+//   let newName = [];
+//   for(let i = 0; i < names.length; i++){
+//    let result =  names[i] + 'Kumar'
+//    newName.push(result)
+//   }
+//   callback(newName)
+// }
+
+// function showResult (result){ // regular Function
+//  console.log(result)
+// }
+
+// let names = ['rohan', 'shubham', 'rahul']
+// student(names, showResult)
 
 
+// Spread Operator with Arrays.................................
+// let arr1 = [2, 4];
+// let arr2 = [5, 7];
+// let newArr = [...arr1, ...arr2];
+// console.log(newArr)
+
+// let arr1 = [1, 3];
+// let newArr = [...arr1]
+// console.log(newArr) // Copy Array
+
+// 2️⃣ Spread Operator with Objects....
+// const student1 = {
+//   name: 'Rohan',
+//   age: 21
+// };
+
+// const student2 = {
+//   name: 'Mohan',
+//   age: 23
+// };
+
+// const students = [
+//   { ...student1 },
+//   { ...student2 }
+// ];
+
+// console.log(students);
+
+// create an object from a class.....................................
+// class Student {
+//   constructor(name, age) {
+//     this.name = name;
+//     this.age = age;
+//   }
+
+//   getDetails() {
+//     return `${this.name} is ${this.age} years old`;
+//   }
+// }
+
+// // Creating objects from the class
+// const student1 = new Student("Rohan", 21);
+// const student2 = new Student("Mohan", 23);
+
+// console.log(student1.getDetails());
+// console.log(student2.getDetails());
+
+// Example of call() and apply() method...............................
+// function greet(city, country) {
+//   console.log(
+//     `Hello, I am ${this.name} from ${city}, ${country}`
+//   );
+// }
+
+// const user = { name: "Shivam" };
+
+// // Using call()
+// greet.call(user, "Delhi", "India");
+
+// // Using apply()
+// greet.apply(user, ["Delhi", "India"]);
