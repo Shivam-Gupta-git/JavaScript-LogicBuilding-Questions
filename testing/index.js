@@ -406,3 +406,52 @@
 
 // // Using apply()
 // greet.apply(user, ["Delhi", "India"]);
+
+// Example of Prototype chain.........................................
+// function User(name){
+//  this.name = name;
+// }
+
+// User.prototype.sayHi = function(){
+//   console.log(`Hi, I m ${this.name}`)
+// }
+
+// const User1 = new User('Shivam');
+// User1.sayHi();
+
+// Example inheritance.............................
+// class User {
+//   constructor(name) {
+//     this.name = name;
+//   }
+
+//   sayHello() {
+//     console.log(`Hello, my name is ${this.name}`);
+//   }
+// }
+
+// class Student extends User {
+//   constructor(name, grade) {
+//     super(name); // calls User constructor
+//     this.grade = grade;
+//   }
+
+//   study() {
+//     console.log("Studying...");
+//   }
+// }
+
+// const S1 = new Student("Raman", "A");
+// S1.sayHello();
+// S1.study();
+
+// Example of garbage collection.............................
+// function studentName(){
+//   let student = 'Mohan'
+//   return student
+// }
+
+// let user1 = studentName()
+// console.log(user1)
+// let user2 = null
+// console.log(user2)
