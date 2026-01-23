@@ -455,3 +455,51 @@
 // console.log(user1)
 // let user2 = null
 // console.log(user2)
+
+// Example of shallow copy................................
+// let student1 = {
+//   name: "Riya",
+//   address: {
+//     city: "Pune"
+//   }
+// };
+
+// let student2 = { ...student1 }; 
+
+// student2.address.city = "Mumbai";
+
+// console.log(student1.address.city); // Mumbai
+// console.log(student2.address.city); // Mumbai
+
+// Example of deep copy.............................................
+// let student1 = {
+//   name: 'Raushan Raj',
+//   age: 23,
+//   address: {
+//     city: 'Patna'
+//   }
+// }
+
+// let deepCopy = JSON.parse(JSON.stringify(student1));
+
+// student1.name = 'Shubham Gupta'
+// console.log(student1); // Shubham Gupta
+// console.log(deepCopy); // Raushan Raj
+
+// Example of setTimeOut Function.................................
+// console.log('start');
+// setTimeout(()=> {
+//   console.log("task is completed.....")
+// },2000)
+// console.log('end')
+
+// Example of Memory Leak with Closure.............................
+// function createBigNumber (){
+//   let calculation = new Array(100000).fill('data');
+//   return function(){
+//     console.log(calculation[0])
+//   }
+// }
+
+// let leak = createBigNumber();
+// leak()
