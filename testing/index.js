@@ -563,4 +563,19 @@
 // console.log('end........')
 
 
+// Example of workin of fetch API...........
+// async function getUsers() {
+//   try {
+//     const response = await fetch("https://api.example.com/users");
+
+//     if (!response.ok) {
+//       throw new Error("Failed to fetch");
+//     }
+
+//     const data = await response.json();
+//     console.log(data);
+//   } catch (error) {
+//     console.error(error);
+//   }
+// }
 
