@@ -505,5 +505,62 @@
 // leak()
 // 
 // 
+// singleton pattern.......................................
+// class Singleton {
+//   static instance;
+
+//   constructor() {
+//     if (Singleton.instance) {
+//       return Singleton.instance;
+//     }
+
+//     this.timestamp = Date.now();
+//     Singleton.instance = this;
+//   }
+// }
+
+// const obj1 = new Singleton();
+// const obj2 = new Singleton();
+
+// console.log(obj1 === obj2); // true
+
+// Example of EventEmitter........................................
+// class EventEmitter {
+//   constructor() {
+//     this.events = {};
+//   }
+
+//   on(eventName, listener) {
+//     this.events[eventName] = this.events[eventName] || [];
+//     this.events[eventName].push(listener);
+//   }
+
+//   emit(eventName, data) {
+//     if (this.events[eventName]) {
+//       this.events[eventName].forEach(fn => fn(data));
+//     }
+//   }
+// }
+
+// const emitter = new EventEmitter();
+
+// emitter.on("greet", (name) => {
+//   console.log(`Hello ${name}`);
+// });
+
+// emitter.emit("greet", "Shivam");
+
+// Example of Event Loop...............................
+// console.log('start...........')
+
+// setTimeout(()=> {
+//  console.log('setTimeOut...')
+// },0)
+
+// Promise.resolve().then(()=> {
+//   console.log('promise resolve...')
+// })
+// console.log('end........')
+
 
 
