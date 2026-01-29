@@ -579,3 +579,22 @@
 //   }
 // }
 
+// Strong references 
+// let User = {
+//   studentName : "Shivam Kumar"
+// }
+
+// let newUser = User;
+// User = null
+// console.log(newUser);
+
+// Week reference.........................
+let user = {
+  studentName : "Shivam Kumar"
+}
+
+let weakMap = new WeakMap()
+weakMap.set(user, "data")
+console.log(weakMap)
+console.log(weakMap.get(user))
+
