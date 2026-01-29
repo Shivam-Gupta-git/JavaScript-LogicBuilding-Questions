@@ -16,4 +16,4 @@ console.log(myMap.get("a1")); // get method is used to get the value from map.
 
 myMap.forEach((val , key) => {  // forEach method is used to itrate the map.
   console.log(key, val)
-})
+}) 

@@ -589,12 +589,23 @@
 // console.log(newUser);
 
 // Week reference.........................
-let user = {
-  studentName : "Shivam Kumar"
-}
+// let user = {
+//   studentName : "Shivam Kumar"
+// }
 
-let weakMap = new WeakMap()
-weakMap.set(user, "data")
-console.log(weakMap)
-console.log(weakMap.get(user))
+// let weakMap = new WeakMap()
+// weakMap.set(user, "data")
+// console.log(weakMap)
+// console.log(weakMap.get(user))
 
+// WaakSet ..........................
+let weakSet = new WeakSet()
+console.log(weakSet);
+
+let obj1 = {name : "Shubham"}
+let obj2 = {name : "Rohan"}
+
+weakSet.add(obj1);
+weakSet.add(obj2);
+
+console.log(weakSet);
