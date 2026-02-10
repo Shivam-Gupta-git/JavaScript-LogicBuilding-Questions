@@ -599,13 +599,30 @@
 // console.log(weakMap.get(user))
 
 // WaakSet ..........................
-let weakSet = new WeakSet()
-console.log(weakSet);
+// let weakSet = new WeakSet()
+// console.log(weakSet);
 
-let obj1 = {name : "Shubham"}
-let obj2 = {name : "Rohan"}
+// let obj1 = {name : "Shubham"}
+// let obj2 = {name : "Rohan"}
 
-weakSet.add(obj1);
-weakSet.add(obj2);
+// weakSet.add(obj1);
+// weakSet.add(obj2);
 
-console.log(weakSet);
+// console.log(weakSet);
+
+// convert string into object and object into string.....................
+
+let studentDetails = {
+  studentName : "Mohan Lal",
+  age: 23,
+  cource: 'BCA'
+}
+
+console.log(studentDetails)
+
+let convertObj_Str = JSON.stringify(studentDetails)
+console.log(convertObj_Str) // convert Object into String
+
+let convertStr_Obj = JSON.parse(convertObj_Str)
+console.log(convertStr_Obj); // conver String into Object
+
