@@ -1,4 +1,4 @@
-// Named Function................. 
+// Named Function.................
 // function sum (){
 //   let a = 10;
 //   let b = 20;
@@ -51,7 +51,7 @@
 // console.log(student)
 // console.log(student.name)
 
-// Access a property of an object................... 
+// Access a property of an object...................
 // let student = {
 //   name : 'ram',
 //   age: 21,
@@ -173,9 +173,9 @@
 // }
 
 // let add = counter()
-// add() 
-// add() 
-// add() 
+// add()
+// add()
+// add()
 
 // Example of try catch.................................
 // try {
@@ -210,7 +210,7 @@
 
 // console.log('third')
 
-// Example of bind() method................................. 
+// Example of bind() method.................................
 // let user = {
 //   name: "Shivam"
 // };
@@ -220,7 +220,7 @@
 // }
 
 // let boundGreet = greet.bind(user);
-// boundGreet(); 
+// boundGreet();
 
 //Example of Prototype.........................................
 // function User(name){
@@ -254,7 +254,7 @@
 // let numbers = [1, 2, 3, 4];
 
 // let sum = numbers.reduce((total, num) => total + num, 0);
-// console.log(sum); 
+// console.log(sum);
 
 // Example of Private variable............................
 // let counter = () => {
@@ -287,7 +287,7 @@
 // let logic = true;
 // console.log(typeof(logic));
 
-// let number2 
+// let number2
 // console.log(typeof(number2))
 
 // let number3 = {}
@@ -343,7 +343,6 @@
 
 // let names = ['rohan', 'shubham', 'rahul']
 // student(names, showResult)
-
 
 // Spread Operator with Arrays.................................
 // let arr1 = [2, 4];
@@ -464,7 +463,7 @@
 //   }
 // };
 
-// let student2 = { ...student1 }; 
+// let student2 = { ...student1 };
 
 // student2.address.city = "Mumbai";
 
@@ -503,8 +502,8 @@
 
 // let leak = createBigNumber();
 // leak()
-// 
-// 
+//
+//
 // singleton pattern.......................................
 // class Singleton {
 //   static instance;
@@ -562,7 +561,6 @@
 // })
 // console.log('end........')
 
-
 // Example of workin of fetch API...........
 // async function getUsers() {
 //   try {
@@ -579,7 +577,7 @@
 //   }
 // }
 
-// Strong references 
+// Strong references
 // let User = {
 //   studentName : "Shivam Kumar"
 // }
@@ -612,17 +610,72 @@
 
 // convert string into object and object into string.....................
 
-let studentDetails = {
-  studentName : "Mohan Lal",
-  age: 23,
-  cource: 'BCA'
-}
+// let studentDetails = {
+//   studentName : "Mohan Lal",
+//   age: 23,
+//   cource: 'BCA'
+// }
 
-console.log(studentDetails)
+// console.log(studentDetails)
 
-let convertObj_Str = JSON.stringify(studentDetails)
-console.log(convertObj_Str) // convert Object into String
+// let convertObj_Str = JSON.stringify(studentDetails)
+// console.log(convertObj_Str) // convert Object into String
 
-let convertStr_Obj = JSON.parse(convertObj_Str)
-console.log(convertStr_Obj); // conver String into Object
+// let convertStr_Obj = JSON.parse(convertObj_Str)
+// console.log(convertStr_Obj); // conver String into Object
+
+// Example of class............................................
+// class StudentDetails {
+//   constructor(name, age, cource){
+//     this.name = name
+//     this.age = age
+//     this.cource = cource
+//   }
+
+//   getAllData(){
+//     return `name: ${this.name}, age: ${this.age}, cource: ${this.cource}`
+//   }
+// }
+
+// let student1 = new StudentDetails("Shivam Kumar", 23, "BCA")
+// console.log(student1.name)
+// console.log(student1.age)
+
+// let student2 = new StudentDetails("Rohan Kumar", 22, "BCA")
+// console.log(student2.name)
+// console.log(student2.age)
+
+// console.log(student1.getAllData())
+// console.log(student2.getAllData())
+
+// Example of inheritance in JavaScript.....................................
+// class StudentDetals {
+//   constructor(name, age, cource){
+//     this.name = name
+//     this.age = age
+//     this.cource = cource
+//   }
+// }
+
+// class StudentGrade extends StudentDetals {
+//  constructor(name, age, cource, grade) {
+//   super(name, age, cource)
+//   this.grade = grade
+//  }
+
+//  getAllData(){
+//   return`name: ${this.name}, age: ${this.age}, cource: ${this.cource}, totalMarks: ${this.grade}`
+//  }
+// }
+
+// let student1 = new StudentGrade("Shivam Gupta", 23, "B-tech", "A")
+// console.log(student1.getAllData())
+
+// let student2 = new StudentGrade("Ravi Kumar Ishwar", 23, "B-tech", "A")
+// console.log(student2.getAllData())
+
+// function studentDetails (name, age){
+//  this.name = name
+//  this.age = age
+// }
 
