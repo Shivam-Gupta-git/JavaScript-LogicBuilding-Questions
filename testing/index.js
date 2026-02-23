@@ -679,3 +679,30 @@
 //  this.age = age
 // }
 
+// Example of Curried Function.............................
+// function add (a){
+//   return function(b){
+//     return function(c){
+//       return a + b + c;
+//     }
+//   }
+// }
+
+// let result = add(3)(5)(6)
+// console.log(result);
+
+// Using Arrow Functions (Modern JS)
+
+// let add = a => b => c => a + b + c;
+// console.log(add(2)(4)(6));
+
+
+// Example of type of scopes...............................
+//  global scope ......
+let a = 10;
+function sum (){
+  return 10 + a
+}
+
+console.log(sum());
+console.log(a);

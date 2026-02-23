@@ -97,3 +97,34 @@
 // 17. what is the output of ?
 // console.log(x)
 // var x = 10;
+
+
+// 18. What is the output............................................... 
+// console.log([] ==! []);  // true
+
+// 19. What is the output ...................................
+// console.log(typeof(undefined)); // undefine
+
+// 20. What is the output..............................................
+// function fn(){
+//   return 
+//   { name: 'shivam'}
+// }
+// console.log(fn()); // undefine
+
+//21.  target two index numbers and return the sum who result is 30.........................
+
+// let numbers = [10, 12, 18, 6, 4];
+// let sum = 0;
+// let resultIndex = []
+// for(let i = 0; i < numbers.length; i++){
+//   for(let j = i + 1; j < numbers.length; j++){
+//     sum = numbers[i] + numbers[j];
+//     if(sum === 30){
+//       resultIndex.push(i , j)
+//     }
+//   }
+// }
+
+// console.log(resultIndex);
+
