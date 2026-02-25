@@ -699,10 +699,15 @@
 
 // Example of type of scopes...............................
 //  global scope ......
-let a = 10;
-function sum (){
-  return 10 + a
-}
+// let a = 10;
+// function sum (){
+//   return 10 + a
+// }
 
-console.log(sum());
-console.log(a);
+// console.log(sum());
+// console.log(a);
+
+let numbers = '1, 2, 3, 4'
+
+let splitMethod = numbers.split()
+console.log(splitMethod);
