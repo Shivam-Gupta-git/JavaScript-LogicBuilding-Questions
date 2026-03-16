@@ -696,7 +696,6 @@
 // let add = a => b => c => a + b + c;
 // console.log(add(2)(4)(6));
 
-
 // Example of type of scopes...............................
 //  global scope ......
 // let a = 10;
@@ -707,7 +706,8 @@
 // console.log(sum());
 // console.log(a);
 
-let numbers = '1, 2, 3, 4'
+// let numbers = '1, 2, 3, 4'
 
-let splitMethod = numbers.split()
-console.log(splitMethod);
+// let splitMethod = numbers.split()
+// console.log(splitMethod);
+
