@@ -504,7 +504,7 @@
 // leak()
 //
 //
-// singleton pattern.......................................
+/*------------ singleton pattern -------------*
 // class Singleton {
 //   static instance;
 
@@ -523,7 +523,7 @@
 
 // console.log(obj1 === obj2); // true
 
-// Example of EventEmitter........................................
+/*---------- Example of EventEmitter ----------*/
 // class EventEmitter {
 //   constructor() {
 //     this.events = {};
@@ -549,7 +549,7 @@
 
 // emitter.emit("greet", "Shivam");
 
-// Example of Event Loop...............................
+/*----------- Example of Event Loop ------------*/
 // console.log('start...........')
 
 // setTimeout(()=> {
@@ -561,7 +561,7 @@
 // })
 // console.log('end........')
 
-// Example of workin of fetch API...........
+/*--------- Example of workin of fetch API --------*/
 // async function getUsers() {
 //   try {
 //     const response = await fetch("https://api.example.com/users");
@@ -586,7 +586,7 @@
 // User = null
 // console.log(newUser);
 
-// Week reference.........................
+/*---------- Week reference ---------*/
 // let user = {
 //   studentName : "Shivam Kumar"
 // }
@@ -596,7 +596,7 @@
 // console.log(weakMap)
 // console.log(weakMap.get(user))
 
-// WaakSet ..........................
+/*-------- WaakSet ------------*/
 // let weakSet = new WeakSet()
 // console.log(weakSet);
 
@@ -608,8 +608,7 @@
 
 // console.log(weakSet);
 
-// convert string into object and object into string.....................
-
+/*----------- convert string into object and object into string ----------*/
 // let studentDetails = {
 //   studentName : "Mohan Lal",
 //   age: 23,
@@ -624,7 +623,7 @@
 // let convertStr_Obj = JSON.parse(convertObj_Str)
 // console.log(convertStr_Obj); // conver String into Object
 
-// Example of class............................................
+/*--------- Example of class ----------*/
 // class StudentDetails {
 //   constructor(name, age, cource){
 //     this.name = name
@@ -648,7 +647,7 @@
 // console.log(student1.getAllData())
 // console.log(student2.getAllData())
 
-// Example of inheritance in JavaScript.....................................
+/*----------- Example of inheritance in JavaScript ----------*/
 // class StudentDetals {
 //   constructor(name, age, cource){
 //     this.name = name
@@ -679,8 +678,7 @@
 //  this.age = age
 // }
 
-// Example of Curried Function.............................
-// function add (a){
+/*--------- Example of Curried Function ----------*/
 //   return function(b){
 //     return function(c){
 //       return a + b + c;
@@ -696,7 +694,7 @@
 // let add = a => b => c => a + b + c;
 // console.log(add(2)(4)(6));
 
-// Example of type of scopes...............................
+/*--------- Example of type of scope ----------*/
 //  global scope ......
 // let a = 10;
 // function sum (){
@@ -711,3 +709,23 @@
 // let splitMethod = numbers.split()
 // console.log(splitMethod);
 
+/*------- Example of Dot Notation -------*/
+// let student = {
+//   name: "test",
+//   age: 22
+// }
+
+// console.log(student.age); // 22
+// student.age = 25;
+// console.log(student.age); // 25
+
+/*------- Bracket Notation ----------- */
+// let student = {
+//   name: "test",
+//   age: 22
+// }
+// console.log(student["name"]); // test
+// console.log(student["age"]); // 22
+
+// student["age"] = 25;
+// console.log(student["age"]); // 25
