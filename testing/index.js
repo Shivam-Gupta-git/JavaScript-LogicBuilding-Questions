@@ -145,8 +145,7 @@
 
 // sum(3, 6, great)
 
-//Example of javascript Promise....................................
-
+/*----- Example of javascript Promise ------*/
 // let myPromise = new Promise((resolve, reject) => {
 //   let success = true;
 
@@ -163,7 +162,7 @@
 //   console.log(error)
 // })
 
-// Example of javascript clouser.......................
+/*----- Example of javascript clouser ------*/
 // let counter = ()=> {
 //   let count = 0;
 //   return function(){
@@ -418,7 +417,7 @@
 // const User1 = new User('Shivam');
 // User1.sayHi();
 
-// Example inheritance.............................
+/*------- Example inheritance -------*/
 // class User {
 //   constructor(name) {
 //     this.name = name;
@@ -444,7 +443,7 @@
 // S1.sayHello();
 // S1.study();
 
-// Example of garbage collection.............................
+/*----- Example of garbage collection ------*/
 // function studentName(){
 //   let student = 'Mohan'
 //   return student
@@ -455,7 +454,7 @@
 // let user2 = null
 // console.log(user2)
 
-// Example of shallow copy................................
+/*----- Example of shallow copy -----*/
 // let student1 = {
 //   name: "Riya",
 //   address: {
@@ -470,7 +469,7 @@
 // console.log(student1.address.city); // Mumbai
 // console.log(student2.address.city); // Mumbai
 
-// Example of deep copy.............................................
+/*----- Example of deep copy ------*/
 // let student1 = {
 //   name: 'Raushan Raj',
 //   age: 23,
@@ -478,21 +477,19 @@
 //     city: 'Patna'
 //   }
 // }
-
 // let deepCopy = JSON.parse(JSON.stringify(student1));
-
 // student1.name = 'Shubham Gupta'
 // console.log(student1); // Shubham Gupta
 // console.log(deepCopy); // Raushan Raj
 
-// Example of setTimeOut Function.................................
+/*------- Example of setTimeOut Function -------*/
 // console.log('start');
 // setTimeout(()=> {
 //   console.log("task is completed.....")
 // },2000)
 // console.log('end')
 
-// Example of Memory Leak with Closure.............................
+/*------ Example of Memory Leak with Closure --------*/
 // function createBigNumber (){
 //   let calculation = new Array(100000).fill('data');
 //   return function(){
@@ -503,7 +500,7 @@
 // let leak = createBigNumber();
 // leak()
 //
-//
+
 /*------------ singleton pattern -------------*
 // class Singleton {
 //   static instance;
@@ -729,3 +726,6 @@
 
 // student["age"] = 25;
 // console.log(student["age"]); // 25
+
+
+
