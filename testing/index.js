@@ -728,4 +728,48 @@
 // console.log(student["age"]); // 25
 
 
+// let studentDetails = {
+//   studentName : "rohan"
+// }
+// function greet () {
+//   console.log(`student name is ${this.studentName}`);
+// }
+// let boundGreet = greet.bind(studentDetails);
+// boundGreet()
+
+// function greet(city, country) {
+//   console.log(
+//     `Hello, I am ${this.name} from ${city}, ${country}`
+//   );
+// }
+// const user = { name: "Shivam" };
+
+// // Using call()
+// greet.call(user, "Delhi", "India");
+
+// // Using apply()
+// greet.apply(user, ["Delhi", "India"]);
+
+/* ------- Decorators --------- */
+// function greet(user){
+//   return "hello " + user
+// }
+
+// // Decorator
+// function withLogin(fn){
+//  return function(user){
+//   console.log("Welcome Back User");
+//   const result = fn(user)
+//   console.log("Action completed successfully");
+//   return result
+//  }
+// }
+
+// const decoratedGreet = withLogin(greet);
+// console.log(decoratedGreet("rohan sharma"));
+
+// // output...
+// // Welcome Back User
+// // You Successfully login
+// // hello rohan sharma
 

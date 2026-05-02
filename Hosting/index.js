@@ -22,8 +22,9 @@
 //   console.log('shivam kumar')
 // }
 
-console.log(studentDetails(2, 5))
-function studentDetails (num1, num2){
-  const sum = num1 + num2
-  return sum
-}
+// console.log(studentDetails(2, 5))
+// function studentDetails (num1, num2){
+//   const sum = num1 + num2
+//   return sum
+// }
+
