@@ -371,7 +371,7 @@
 
 // console.log(students);
 
-// create an object from a class.....................................
+/*------- create an object from a class ---------*/
 // class Student {
 //   constructor(name, age) {
 //     this.name = name;
@@ -390,7 +390,7 @@
 // console.log(student1.getDetails());
 // console.log(student2.getDetails());
 
-// Example of call() and apply() method...............................
+/*------- Example of call() and apply() method ----------*/
 // function greet(city, country) {
 //   console.log(
 //     `Hello, I am ${this.name} from ${city}, ${country}`
