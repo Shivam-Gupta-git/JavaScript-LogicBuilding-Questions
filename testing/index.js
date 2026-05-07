@@ -209,7 +209,7 @@
 
 // console.log('third')
 
-// Example of bind() method.................................
+/*------- Example of bind() method --------*/
 // let user = {
 //   name: "Shivam"
 // };
@@ -221,7 +221,7 @@
 // let boundGreet = greet.bind(user);
 // boundGreet();
 
-//Example of Prototype.........................................
+/*--------- Example of Prototype --------*/
 // function User(name){
 //  this.name = name;
 // }
@@ -772,4 +772,20 @@
 // // Welcome Back User
 // // You Successfully login
 // // hello rohan sharma
+
+/*------ ProtoType -------*/
+// let studentDetails = {
+//   user: "rohan",
+//   age: 22
+// }
+
+// let studentParentsDetails = {
+//   fatherName: "Sambhu Lal",
+//   contact: "+91 8843671292"
+// }
+
+// studentDetails.__proto__ = studentParentsDetails
+// console.log(studentDetails.user); // rohan
+// console.log(studentDetails.fatherName); // Sambhu Lal
+
 
