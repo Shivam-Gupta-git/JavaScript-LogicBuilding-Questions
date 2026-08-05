@@ -1,4 +1,4 @@
-// Named Function.................
+/*----------- Named Function -------------*/
 // function sum (){
 //   let a = 10;
 //   let b = 20;
@@ -8,7 +8,7 @@
 
 // console.log(sum())
 
-// Arrow Function.................
+/*---------- Arrow Function ------------*/
 // let multi = ()=> {
 //   let a = 10;
 //   let b = 20;
@@ -17,7 +17,7 @@
 // }
 // console.log(multi())
 
-// Example of array..........................
+/*--------- Example of array -----------*/
 // let name1 = ["mohan", "sohan","Ram"]
 // console.log(name1)
 // for(let i = 0; i < name1.length; i++){
@@ -26,7 +26,7 @@
 // name1.push('Shubham')
 // console.log(name1)
 
-// How do you add an element to an array? Example......................
+/*--------- How do you add an element to an array? Example -----------*/
 // let name1 = ["ram", "mohan", "sohan"];
 // console.log(name1)
 
@@ -42,7 +42,7 @@
 // name1.splice(2, 0, "shubham");
 // console.log(name1);
 
-// Example of an object....................
+/*----------- Example of an object ------------*/
 // let student = {
 //   name : 'ram',
 //   age: 21,
@@ -51,7 +51,7 @@
 // console.log(student)
 // console.log(student.name)
 
-// Access a property of an object...................
+/*----------- Access a property of an object -----------*/
 // let student = {
 //   name : 'ram',
 //   age: 21,
@@ -63,7 +63,7 @@
 // 2. bracket notation
 // console.log(student["age"])
 
-// Comparision between '==' or '==='...............................
+/*----------- Comparision between '==' or '===' ----------*/
 // let number1 = 6
 // console.log(typeof(number1))
 
@@ -82,8 +82,7 @@
 //   console.log('not equal')
 // }
 
-//Example of Callback function..........................
-
+/*---------- Example of Callback function ------------*/
 // let message = (sum) => {
 //   console.log("Sum of two number is: ", sum)
 // }
@@ -109,7 +108,7 @@
 
 // sum(3, 7, message)
 
-//  How do you loop through an array in JavaScript?.................................
+/*---------  How do you loop through an array in JavaScript? ------------*/
 // let name1 = ["ram", "mohan", "sohan", "ajit"]
 // console.log(name1);
 
@@ -130,7 +129,7 @@
 // let newList = name1.map(item => item.toUpperCase())
 // console.log(newList);
 
-// Example of callback function..............................
+/*-------- Example of callback function ----------*/
 // let great = function(){
 //   console.log('hello...')
 // }
@@ -176,7 +175,7 @@
 // add()
 // add()
 
-// Example of try catch.................................
+/*-------- Example of try catch ----------*/
 // try {
 //   let result = JSON.parse('{name:"Shivam"}'); // invalid JSON
 //   console.log(result);
@@ -186,7 +185,7 @@
 //   console.log("Done");
 // }
 
-// Example of Synchronous Programming ...................................................
+/*--------- Example of Synchronous Programming ---------*/
 // let Synchronous = (a, b) => {
 //  let sum = a + b;
 //   return sum
@@ -194,8 +193,7 @@
 // let result =  Synchronous(3, 6)
 // console.log(result)
 
-// Example of Asynchronous Programming...................................................
-
+/*---------- Example of Asynchronous Programming -----------*/
 // console.log('first')
 // let sum = (a, b, callback) => {
 //   let result = a + b;
@@ -236,26 +234,24 @@
 // name1.sayHello1()
 // name2.sayHello1()
 
-// Example of map() method.................................................
-
+/*---------- Example of map() method -----------*/
 // let numbers = [2, 5, 1, 6, 7]
 // let newNumbers = numbers.map((num) => num + 1)
 // console.log('Original Number',numbers)
 // console.log('maping numbers',newNumbers)
 
-// Example of filter() method......................................
-
+/*--------- Example of filter() method -----------*/
 // let number = [1, 4, 5, 2, 3, 7];
 // let newNumber = number.filter((num) => num > 4)
 // console.log(newNumber)
 
-// Example of reduce() method......................................
+/*---------- Example of reduce() method -------------*/
 // let numbers = [1, 2, 3, 4];
 
 // let sum = numbers.reduce((total, num) => total + num, 0);
 // console.log(sum);
 
-// Example of Private variable............................
+/*---------- Example of Private variable ------------*/
 // let counter = () => {
 //   let count = 0
 //   return {
@@ -276,7 +272,7 @@
 
 // console.log(counterFun.decrement())
 
-// Example of typeOf............................................
+/*--------- Example of typeOf -----------*/
 // let number1 = 33;
 // console.log(typeof(number1));
 
@@ -295,27 +291,25 @@
 // let fun = () => {};
 // console.log(typeof(fun))
 
-// Example of pop() method............................................
-
+/*---------- Example of pop() method -----------*/
 // let numbers = [1, 2, 4, 6, 3];
 // let remove1 = numbers.pop()
 // console.log(remove1) // 3
 // console.log(numbers) // [ 1, 2, 4, 6 ]
 
-// Example of shift() method..................................
+/*-------- Example of shift() method ------------*/
 // let numbers = [1, 3, 5, 2, 6];
 // let newnumbers = numbers.shift();
 // console.log(newnumbers);
 // console.log(numbers)
 
-// Example of splice() method............................................
+/*--------- Example of splice() method ------------*/
 // let numbers = [1, 4, 2, 6, 4, 8]
 // let newNumbers = numbers.splice(1, 1)
 // console.log(newNumbers);
 // console.log(numbers);
 
-// Example of a Higher Order Function....................................
-
+/*---------- Example of a Higher Order Function -------------*/
 // let sum = (a, b, callback) => { // higher Order Function
 //   let result = a + b;
 //   callback(result)
@@ -326,7 +320,7 @@
 // }
 // sum(2, 5, showResult);
 
-// Another Example of Higher Order Function...
+/*-------- Another Example of Higher Order Function ---------*/
 // let student = (names, callback) => { // Higher Order Function
 //   let newName = [];
 //   for(let i = 0; i < names.length; i++){
@@ -343,7 +337,7 @@
 // let names = ['rohan', 'shubham', 'rahul']
 // student(names, showResult)
 
-// Spread Operator with Arrays.................................
+/*---------- Spread Operator with Arrays -----------*/
 // let arr1 = [2, 4];
 // let arr2 = [5, 7];
 // let newArr = [...arr1, ...arr2];
@@ -787,5 +781,7 @@
 // studentDetails.__proto__ = studentParentsDetails
 // console.log(studentDetails.user); // rohan
 // console.log(studentDetails.fatherName); // Sambhu Lal
+
+
 
 
