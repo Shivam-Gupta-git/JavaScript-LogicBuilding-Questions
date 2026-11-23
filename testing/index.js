@@ -782,6 +782,7 @@
 // console.log(studentDetails.user); // rohan
 // console.log(studentDetails.fatherName); // Sambhu Lal
 
-
-
-
+let number = 10;
+for(let i = 0; i <= number; i++){
+  console.log(i);
+}
