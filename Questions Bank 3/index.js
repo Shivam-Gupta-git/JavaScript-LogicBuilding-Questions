@@ -128,3 +128,30 @@
 
 // console.log(resultIndex);
 
+/**--------- Write a JavaScript program that creates a simple JavaScript program that manipulates strings using various string methods. --------------*/
+
+// let conctString = (str1, str2) => {
+//   let concat = str1.concat(str2)
+//   return concat;
+//   }
+  
+//   console.log(conctString("Hello", "World"));
+  
+//   let findInder = (str1, str2) => {
+//   let findIndex = str1.concat(str2);
+//   return findIndex.indexOf("World")
+//   }
+//   console.log(findInder("Hello", "World"));
+
+/**--------- Write a program to calculate the area of the rectangle for the given dimension (len and wid). Store the area in the result variable. ----------*/
+
+// let areaOfRectangle = (len, wid)=>{
+// let result = len * wid;
+// return result;
+// }
+
+// console.log(areaOfRectangle(5, 5));
+
+// let x = 7;
+// let y = 2;
+// console.log(x ** y); 
