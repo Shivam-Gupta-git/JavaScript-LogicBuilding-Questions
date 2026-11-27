@@ -69,10 +69,34 @@
 // console.log(areaOfTriangle(10, 20));
 
 /**------------ find the output --------------*/
-
 // let x = "2";
 // let y = 5;
 // let result = x * y;
 // console.log(typeof(result)); // Number
 
 // console.log(result === 10); // true
+
+/**----- Create a simple online shopping discount calculator. The program should take the input for the original price of a product and the discount percentage. It should then calculate and display the final discounted price. -------*/
+// let shoppingDiscountCalculator = (original_price, discount_percentage) => {
+//   let price = parseFloat(original_price);
+//   let discount = parseFloat(discount_percentage);
+
+//   let discount_Amount = (price * discount) / 100;
+//   let answer;
+  
+//   answer = price - discount_Amount;
+//   return answer;
+
+// }
+// console.log(shoppingDiscountCalculator("50.75", "15.5"));
+
+/**-----  */
+let temperatureInCelcius = (celsius)=> {
+let fahrenheit;
+fahrenheit = (celsius * 9/5) + 32;
+let ishot;
+ishot = fahrenheit > 86;
+return ishot;
+}
+
+console.log(temperatureInCelcius(35));
