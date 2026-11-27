@@ -90,13 +90,130 @@
 // }
 // console.log(shoppingDiscountCalculator("50.75", "15.5"));
 
-/**-----  */
-let temperatureInCelcius = (celsius)=> {
-let fahrenheit;
-fahrenheit = (celsius * 9/5) + 32;
-let ishot;
-ishot = fahrenheit > 86;
-return ishot;
-}
+/**----- calculate the fahrenheit and display ishot or not */
+// let temperatureInCelcius = (celsius)=> {
+// let fahrenheit;
+// fahrenheit = (celsius * 9/5) + 32;
+// let ishot;
+// ishot = fahrenheit > 86;
+// return ishot;
+// }
 
-console.log(temperatureInCelcius(35));
+// console.log(temperatureInCelcius(35));
+
+/**----- Write a JavaScript function named checkEligibility that takes an integer input age and checks if the user's age meets the eligibility criteria. The function should return a string indicating whether access is "granted" or "denied" based on the following conditions -----*/
+// let checkEligibility = (age) => {
+// let answer; 
+// if(age >= 18){
+//   answer = "granted"
+// }else{
+//   answer = "denied"
+// }
+// return answer
+// }
+// console.log(checkEligibility(15));
+
+/**------ You are developing an online shopping website, and you want to implement a discount system based on the total purchase amount. Write a JavaScript program using if statements and operators that calculate and display the total cost after applying a discount. The discount rules are as follows: ------*/
+// let discountCalculator = (totalAmount) => {
+// let answer;
+// let discount;
+// if(totalAmount >= 100){
+//    discount = totalAmount * (10/100);
+//    answer = totalAmount - discount;
+// }else if(totalAmount>= 50 && totalAmount < 99.99){
+//  discount = totalAmount * (5/100);
+//  answer = totalAmount - discount;
+// }else{
+//   answer = "no discount"
+// }
+// return answer
+// }
+
+// console.log(discountCalculator(200));
+// console.log(discountCalculator(80));
+
+/**---- find the discount -------*/
+// let dis = (amount) => {
+//   let result;
+//   let disAmount;
+//   disAmount = amount * (10/100);
+//   result = amount - disAmount;
+//   return result
+// }
+
+/**----- You are required to implement a grading system for a school based on the marks obtained by students in a test. The goal is to write a JavaScript program that determines the grade of a student using conditional statements. -----*/
+
+// function main(marks) {
+
+//   let result;
+
+//   if (marks >= 90) {
+//     result = "A";
+//   } else if (marks >= 80) {
+//     result = "B";
+//   } else if (marks >= 70) {
+//     result = "C";
+//   } else if (marks >= 60) {
+//     result = "D";
+//   } else {
+//     result = "F";
+//   }
+
+//   return result;
+
+// }
+
+// console.log(main(89));
+// console.log(main(93));
+
+/**----- Email Validation Solution ----------*/
+// let email = "asa@gmail.io"
+// let emailLength = email.length;
+
+// let dotIndex = email.lastIndexOf(".")
+
+// let atIndex = email.lastIndexOf('@')
+
+// let lastIndex = emailLength - 1;
+
+// if(emailLength < 11 || 
+//   lastIndex - dotIndex < 2 || 
+//   lastIndex - dotIndex > 3 || 
+//   dotIndex - atIndex < 3){
+//     console.log("Invalid Email");
+//   }else{
+//     console.log("valid email");
+//   }
+
+
+/**---- You have already completed the email validation program using "||" operator. Now modify the code and rewrite the conditions to validate the email using the "&&" operator.
+
+Additionally, include one more condition that: Email should have at least 3 characters before “@.”
+
+If the email is valid, store the value of the email in the result variable with a welcome message. If the email is invalid, store the string "invalid email" in the result variable. ------*/
+// function main(email) {
+//   let result;
+//   // Step 1: Find the index of @
+//   let atIndex = email.indexOf("@");
+
+//   // Step 2: Find the index of the last dot
+//   let dotIndex = email.lastIndexOf(".");
+
+//   // Step 3: Calculate email length
+//   let emailLength = email.length;
+
+//   // Step 4: Validate email
+//   if (
+//     atIndex >= 3 &&
+//     dotIndex - atIndex >= 4 &&
+//     emailLength - dotIndex - 1 >= 2 &&
+//     emailLength - dotIndex - 1 <= 3 &&
+//     atIndex !== -1 &&
+//     dotIndex > atIndex
+//   ) {
+//     result = "Welcome " + email + " to our site";
+//   } else {
+//     result = "invalid email";
+//   }
+//   return result;
+// }
