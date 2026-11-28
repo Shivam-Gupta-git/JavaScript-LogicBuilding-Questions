@@ -23,3 +23,36 @@
 // }else{
 //   console.log("fail");
 // }
+
+/**--------- Nested if statement -------------*/
+// let age = 15;
+// let test = true;
+
+// if(age >= 18){
+//  if (test === true){
+//      console.log("eligable and can obtain the license");
+//   }else{
+//     console.log("eligable but cannot obtain the license");
+//   }
+// }else{
+//   console.log("not eligable to obtain the license");
+// }
+
+/**------- switch statements ---------*/
+// let colour = "red"
+
+// switch(colour){
+//   case "red" : console.log("STOP! the light is red");
+//   break;
+
+//   case "yellow" : console.log("CAUTION! the light is yellow");
+//   break;
+
+//   case "green" : console.log("GO AHEAD");
+//   break;
+
+//   default : console.log("Invalid Colour");
+// }
+
+/**------ Ternary Operator ----------*/
+

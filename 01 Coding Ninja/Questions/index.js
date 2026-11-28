@@ -1,4 +1,6 @@
-/**--------- Write a JavaScript program that creates a simple JavaScript program that manipulates strings using various string methods. --------------*/
+/**---------Q.1 
+ Write a JavaScript program that creates a simple JavaScript program that manipulates strings using various string methods. 
+ --------------*/
 
 // let conctString = (str1, str2) => {
 //   let concat = str1.concat(str2)
@@ -13,7 +15,9 @@
 //   }
 //   console.log(findInder("Hello", "World"));
 
-/**--------- Write a program to calculate the area of the rectangle for the given dimension (len and wid). Store the area in the result variable. ----------*/
+/**---------Q.2 
+ Write a program to calculate the area of the rectangle for the given dimension (len and wid). Store the area in the result variable. 
+ ----------*/
 
 // let areaOfRectangle = (len, wid)=>{
 // let result = len * wid;
@@ -22,12 +26,16 @@
 
 // console.log(areaOfRectangle(5, 5));
 
-/**----------- solve this problem -----------*/
+/**-----------Q.3 
+ solve this problem 
+ -----------*/
 // let x = 7;
 // let y = 2;
 // console.log(x ** y);
 
-/**--------------- Now build a calculator application, and we have to implement basic arithmetic operations. Write a JavaScript program that takes two numbers as input, performs addition, subtraction, multiplication, and division, and displays the results. --------------*/
+/**---------------Q.4 
+ Now build a calculator application, and we have to implement basic arithmetic operations. Write a JavaScript program that takes two numbers as input, performs addition, subtraction, multiplication, and division, and displays the results. 
+ --------------*/
 
 // let addition = (num1, num2) => {
 //   let answer;
@@ -58,7 +66,9 @@
 // console.log(multiplication(4, 2));
 // console.log(division(4, 2));
 
-/**------------- Develop a program to calculate the area of a triangle. The program takes the base and height of a triangle as input and calculates the area using the appropriate arithmetic operators for multiplication and division. -----------*/
+/**-------------Q.5 
+ Develop a program to calculate the area of a triangle. The program takes the base and height of a triangle as input and calculates the area using the appropriate arithmetic operators for multiplication and division. 
+ -----------*/
 
 // let areaOfTriangle = (base, height) => {
 //   let result;
@@ -68,7 +78,9 @@
 
 // console.log(areaOfTriangle(10, 20));
 
-/**------------ find the output --------------*/
+/**------------Q.6 
+ find the output 
+ --------------*/
 // let x = "2";
 // let y = 5;
 // let result = x * y;
@@ -76,7 +88,9 @@
 
 // console.log(result === 10); // true
 
-/**----- Create a simple online shopping discount calculator. The program should take the input for the original price of a product and the discount percentage. It should then calculate and display the final discounted price. -------*/
+/**-----Q.7 
+ Create a simple online shopping discount calculator. The program should take the input for the original price of a product and the discount percentage. It should then calculate and display the final discounted price. 
+ -------*/
 // let shoppingDiscountCalculator = (original_price, discount_percentage) => {
 //   let price = parseFloat(original_price);
 //   let discount = parseFloat(discount_percentage);
@@ -90,7 +104,8 @@
 // }
 // console.log(shoppingDiscountCalculator("50.75", "15.5"));
 
-/**----- calculate the fahrenheit and display ishot or not */
+/**-----Q.8 
+ calculate the fahrenheit and display ishot or not */
 // let temperatureInCelcius = (celsius)=> {
 // let fahrenheit;
 // fahrenheit = (celsius * 9/5) + 32;
@@ -101,7 +116,9 @@
 
 // console.log(temperatureInCelcius(35));
 
-/**----- Write a JavaScript function named checkEligibility that takes an integer input age and checks if the user's age meets the eligibility criteria. The function should return a string indicating whether access is "granted" or "denied" based on the following conditions -----*/
+/**-----Q.9 
+ Write a JavaScript function named checkEligibility that takes an integer input age and checks if the user's age meets the eligibility criteria. The function should return a string indicating whether access is "granted" or "denied" based on the following conditions 
+ -----*/
 // let checkEligibility = (age) => {
 // let answer; 
 // if(age >= 18){
@@ -113,7 +130,9 @@
 // }
 // console.log(checkEligibility(15));
 
-/**------ You are developing an online shopping website, and you want to implement a discount system based on the total purchase amount. Write a JavaScript program using if statements and operators that calculate and display the total cost after applying a discount. The discount rules are as follows: ------*/
+/**------Q.10 
+ You are developing an online shopping website, and you want to implement a discount system based on the total purchase amount. Write a JavaScript program using if statements and operators that calculate and display the total cost after applying a discount. The discount rules are as follows: 
+ ------*/
 // let discountCalculator = (totalAmount) => {
 // let answer;
 // let discount;
@@ -132,7 +151,9 @@
 // console.log(discountCalculator(200));
 // console.log(discountCalculator(80));
 
-/**---- find the discount -------*/
+/**----Q.11 
+ find the discount 
+ -------*/
 // let dis = (amount) => {
 //   let result;
 //   let disAmount;
@@ -141,7 +162,8 @@
 //   return result
 // }
 
-/**----- You are required to implement a grading system for a school based on the marks obtained by students in a test. The goal is to write a JavaScript program that determines the grade of a student using conditional statements. -----*/
+/**-----Q.12 
+ You are required to implement a grading system for a school based on the marks obtained by students in a test. The goal is to write a JavaScript program that determines the grade of a student using conditional statements. -----*/
 
 // function main(marks) {
 
@@ -166,7 +188,9 @@
 // console.log(main(89));
 // console.log(main(93));
 
-/**----- Email Validation Solution ----------*/
+/**-----Q.13 
+ Email Validation Solution 
+ ----------*/
 // let email = "asa@gmail.io"
 // let emailLength = email.length;
 
@@ -186,11 +210,13 @@
 //   }
 
 
-/**---- You have already completed the email validation program using "||" operator. Now modify the code and rewrite the conditions to validate the email using the "&&" operator.
+/**----Q.14 
+ You have already completed the email validation program using "||" operator. Now modify the code and rewrite the conditions to validate the email using the "&&" operator.
 
 Additionally, include one more condition that: Email should have at least 3 characters before “@.”
 
-If the email is valid, store the value of the email in the result variable with a welcome message. If the email is invalid, store the string "invalid email" in the result variable. ------*/
+If the email is valid, store the value of the email in the result variable with a welcome message. If the email is invalid, store the string "invalid email" in the result variable. 
+------*/
 // function main(email) {
 //   let result;
 //   // Step 1: Find the index of @
@@ -217,3 +243,64 @@ If the email is valid, store the value of the email in the result variable with 
 //   }
 //   return result;
 // }
+
+/**-------Q.15 
+Problem statement
+Write a program that checks whether a given year is a leap year. The program should follow specific rules to determine if a year is a leap year and store the result as a boolean value (true or false) in a variable named answer. 
+
+Check the following conditions to check if a given year is a leap year or not:
+Condition 1: If a year is divisible by 4, it is a leap year.
+Condition 2: If a year is divisible by 100, it is not a leap year.
+Condition 3: If a year is divisible by 400, it is a leap year even though it is divisible by 100.
+-------*/
+// let leapYear = (year) => {
+// let answer;
+
+// if(year % 400 === 0){
+//  answer = true;
+// }else if(year % 100 === 0){
+//   answer = false
+// }else if(year % 4 === 0){
+//   answer = true
+// }else{
+//   answer = false
+// }
+// return answer
+// }
+
+// console.log(leapYear(2013));
+// console.log(leapYear(2004));
+// console.log(leapYear(2100));
+
+/**------Q.16 
+Problem statement
+Create a program that takes a customer's coffee order as input, converts the input to lowercase, and uses a switch statement to handle different coffee types. The program should calculate the price based on the selected coffee type and store the result in a variable named " answer."
+
+The coffee types and their prices are as follows:
+Regular: $2.50
+Latte: $3.50
+Cappuccino: $4.00
+Espresso: $2.50
+--------*/
+// let coffeeMatchine = (coffeeType) => {
+// let answer;
+// coffeeType = coffeeType.toLowerCase();
+
+// switch(coffeeType){
+//   case "regular" : answer = '$2.50';
+//   break;
+
+//   case 'latte' : answer = '$3.50';
+//   break;
+
+//   case 'cappuccino' : answer = '$4.00';
+//   break;
+
+//   case 'espresso' : answer = '$2.50';
+//   break;
+
+//   default : answer = "Invalid coffee type";
+// }
+// return answer;
+// }
+// console.log(coffeeMatchine("ESPRESSO"));
