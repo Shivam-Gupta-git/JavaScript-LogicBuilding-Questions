@@ -304,3 +304,111 @@ Espresso: $2.50
 // return answer;
 // }
 // console.log(coffeeMatchine("ESPRESSO"));
+
+/**-----Q17.  
+what will be the output ? 
+--------*/
+// let flag;
+
+// let num = flag ? 100 : 200;
+// console.log(num); // 200
+
+/**------Q18.
+ You are tasked with creating a program that calculates the sum of even numbers up to a given limit. Write a JavaScript function using a for loop that takes a positive integer as input and returns the sum of all even numbers from 1 up to that integer. 
+--------*/
+// let sumOfEvenNumber = (num) => {
+//   let result = 0;
+//   for(let i = 1; i <= num; i++){
+//     if(i % 2 == 0){
+//       result += i
+//     }
+//   }
+//   return result;
+// }
+// console.log(sumOfEvenNumber(6));
+
+/**------Q19.
+ You are building a program to calculate the factorial of a given positive integer. The factorial of a non-negative integer n is the product of all positive integers less than or equal to n. Write a JavaScript function using a for loop that takes a positive integer as input and returns its factorial.
+---------*/
+// let findFactorial = (num) => {
+//   let result = 1;
+//   for(let i = 1; i <= num; i++){
+//     result *= i;
+//   }
+//   return result
+// }
+// console.log(findFactorial(5));
+
+/**-----Q.20 
+Print even or odd
+--------*/
+// Case 1:
+// let findEven = (num) => {
+//   for (let i = 1; i <= num; i++) {
+//     if (i % 2 === 0) {
+//       console.log(i);
+//     }
+//   }
+// };
+
+// findEven(50);
+
+// case 2:
+// let findEven = (num) => {
+//   let result = [];
+//   for(let i = 1; i <= num; i++){
+//     if(i % 2 === 0){
+//       result.push(i);
+//     }
+//   }
+//   return result;
+// }
+// console.log(findEven(10));
+
+/**-----Q.21 
+prime or not
+----------*/
+
+// let checkPrime = (num) => {
+//   let isPrime = true;
+//   if(num <= 1){
+//     isPrime = false
+//   }else{
+//     for(let i = 2; i < num; i++){
+//       if(num % i === 0){
+//         isPrime = false;
+//         break;
+//       }
+//     }
+//   }
+//   if(isPrime){
+//     return "Prime Number"
+//   }else{
+//     return "Not Prime Number"
+//   }
+// }
+
+// console.log(checkPrime(10));
+
+/**-----Q.22 Composite Number -------*/
+let checkComposite = (num) => {
+  let isComposite = false;
+  if(num <= 1){
+    return false;
+  }else{
+   for(let i = 2; i < num; i++){
+    if(num % i === 0){
+      return true
+    }
+   }
+  }
+  return isComposite;
+}
+
+console.log(checkComposite(4));
+
+console.log(checkComposite(7));
+
+console.log(checkComposite(9));
+
+console.log(checkComposite(1));

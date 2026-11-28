@@ -55,4 +55,13 @@
 // }
 
 /**------ Ternary Operator ----------*/
+// let num1 = 20;
+// let num2 = 12;
+
+// // case 1
+// num1 > num2 ? console.log(num1, "is greater than", num2) : console.log(num2, "is greater than", num1);
+
+// // case 2
+// let greater = num1 > num2 ? num1 : num2;
+// console.log('Greater number is', greater);
 
